@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1525806236 source:d:\udemyc++\classes\cat.cpp
+	<iostream>
+	"cat.h"
+
+1525806347 d:\udemyc++\classes\cat.h
+
+1525806037 source:d:\udemyc++\classes\main.cpp
+	<iostream>
+	"cat.h"
+
