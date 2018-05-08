@@ -19,3 +19,8 @@ void Cat::speak()
         cout<<this<<" ssss"<<endl;
     }
 }
+
+void Cat::HappyMood(bool mood)
+{
+    happy = mood;
+}

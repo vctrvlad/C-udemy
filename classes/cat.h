@@ -6,6 +6,9 @@ class Cat
     public:
     void speak();
     void jump();
+    void HappyMood(bool mood);
+
+    private:
     bool happy;
 };
 

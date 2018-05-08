@@ -5,12 +5,12 @@ using namespace std;
 int main()
 {
     Cat Chin;
-    Chin.happy = 0;
+    Chin.HappyMood(false);
     Chin.speak();
     Chin.jump();
 
     Cat Keiko;
-    Keiko.happy = 1;
+    Keiko.HappyMood(true);
     Keiko.speak();
     Keiko.jump();
     return 0;
