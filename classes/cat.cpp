@@ -1,13 +1,21 @@
 #include <iostream>
 #include "cat.h"
+
 using namespace std;
 
 void Cat::jump()
 {
-    cout<<"slifff"<<endl;
+    cout<<this<<" mrrrrr"<<endl;
 }
 
 void Cat::speak()
 {
-    cout<<"meouwwww"<<endl;
+    if(happy)
+    {
+         cout<<this<<" meouwwww"<<endl;
+    }
+    else
+    {
+        cout<<this<<" ssss"<<endl;
+    }
 }

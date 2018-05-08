@@ -3,9 +3,10 @@
 
 class Cat
 {
-public:
+    public:
     void speak();
     void jump();
+    bool happy;
 };
 
 #endif // CAT_H_INCLUDED
