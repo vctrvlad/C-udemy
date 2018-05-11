@@ -1,11 +1,11 @@
 # depslib dependency file v1.0
-1525811008 source:d:\udemyc++\classes\cat.cpp
+1526063005 source:d:\udemyc++\classes\cat.cpp
 	<iostream>
-	"cat.h"
+	"Cat.h"
 
-1525810721 d:\udemyc++\classes\cat.h
+1526061694 d:\udemyc++\classes\cat.h
 
-1525811049 source:d:\udemyc++\classes\main.cpp
+1526063119 source:d:\udemyc++\classes\main.cpp
 	<iostream>
-	"cat.h"
+	"Cat.h"
 

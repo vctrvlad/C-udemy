@@ -1,17 +1,13 @@
 #include <iostream>
-#include "cat.h"
+#include "Cat.h"
 using namespace std;
 
 int main()
 {
+    cout<<"hello world;"<<endl;
     Cat Chin;
-    Chin.HappyMood(false);
     Chin.speak();
-    Chin.jump();
-
-    Cat Keiko;
-    Keiko.HappyMood(true);
-    Keiko.speak();
-    Keiko.jump();
+    Chin.petCat();
+    Chin.speak();
     return 0;
 }

@@ -1,15 +1,24 @@
-#ifndef CAT_H_INCLUDED
-#define CAT_H_INCLUDED
 
-class Cat
+#ifndef CAT_H_
+#define CAT_H_
+typedef enum
 {
-    public:
+    SAD,
+    HAPPY,
+    CONCERNED
+}mood_enum_t;
+
+class  Cat
+{
+public:
+    Cat();
+    ~Cat();
     void speak();
     void jump();
-    void HappyMood(bool mood);
-
-    private:
-    bool happy;
+    void purr();
+    void petCat();
+private:
+    mood_enum_t mood;
 };
 
-#endif // CAT_H_INCLUDED
+#endif // CAT_H_
